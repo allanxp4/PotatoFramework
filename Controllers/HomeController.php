@@ -3,11 +3,11 @@ require_once('./Views/View.php');
 
 class HomeController{
     public function showHome(){
-        $rolabag['test'] = "arou";
-        View::RenderView("Home", $rolabag);
+        $rbag['test'] = "arou";
+        View::RenderView("Home", $rbag);
     }
 
-    public function pau(){
-        echo 'Huepauzao';
+    public function p2(){
+        echo 'Hueheu';
     }
 }
